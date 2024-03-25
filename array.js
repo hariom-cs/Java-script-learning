@@ -14,3 +14,13 @@ car[7]="mahindra"
 console.log(car)
 
 
+//--------2d array------------
+
+let array2d=[
+    [1,2,3],
+    [11,22,33],
+    [10,92,23]
+]
+console.log(array2d);//access all elements
+console.table(array2d)//access in table form
+console.log(array2d[1][2]);//particular element accessing
