@@ -31,11 +31,11 @@ let j=1000;
 for(var i=0;i<num;i++){//by interchanging "var" to "let" it will not be accessible outside the block.
     let j=200
     if(i%2 == 0){
-       
+       let hello=10000;
         console.log(i);
     }
-console.log("inner"+j);
+// console.log("inner"+j);
 }
-
+// console.log(hello);//error dega
 console.log("outer"+j);
 console.log(`the final value of i is =${i}`);
