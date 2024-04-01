@@ -24,3 +24,7 @@ let array2d=[
 console.log(array2d);//access all elements
 console.table(array2d)//access in table form
 console.log(array2d[1][2]);//particular element accessing
+
+let res=array2d[1];
+console.log(res);
+console.log(res[2]);

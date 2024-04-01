@@ -22,6 +22,8 @@
 
 
 //-----------Immediately Invoked function Expression------
+
+//eg-01
 let ans1= additionIIFE=function add(a,b){
     return a+b;
 }(122,34);
