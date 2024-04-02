@@ -45,3 +45,45 @@ console.log("printed using bracket notation "+  capAmerica["friends"][0]);
 capAmerica.sayHi();//methods accessing
 
 console.log(capAmerica.address.city);//nested objects
+//finding type of each object properties
+console.log(typeof capAmerica.friends);
+
+//for loop se value printing
+console.log("-----------------------");
+for (let key1 in capAmerica){
+    //print key
+    // console.log(key1);
+
+    //----------------------------
+    
+    //print value of key of capAmerica object if you dont know the  key name of object
+    // console.log(`${key1}`);
+    // console.log(capAmerica[key1]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //everything in js created as object
+// //eg:
+// let arr=[1,33,"hariom"];
+// console.log(arr);
+// //above arr created in js as following types internally
+// let arr1={
+//     0:1,
+//     1:33,
+//     2:"Hariom"
+// };
+// console.log(arr1);
