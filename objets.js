@@ -42,6 +42,7 @@ console.log(capAmerica);
 console.log(capAmerica.friends);
 console.log(capAmerica.friends[0]);
 console.log("printed using bracket notation "+  capAmerica["friends"][0]);
+
 capAmerica.sayHi();//methods accessing
 
 console.log(capAmerica.address.city);//nested objects
