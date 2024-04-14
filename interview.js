@@ -37,4 +37,14 @@
 // console.log(nums(2,3));//if return and a+b in same line then op= b is big 5
 // console.log(nums(5,4));//if return and a+b not in same line=>op= a is big undefined
 //----------------------------------------------
-
+let randomValue = { 
+    name: "Lydia" 
+};
+randomValue = 23;
+if(!typeof randomValue === "string") {
+  //false -> boolean === string
+  console.log("It's not a string!");
+} 
+else{
+  console.log("Yay it's a string!");
+}
