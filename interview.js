@@ -37,14 +37,42 @@
 // console.log(nums(2,3));//if return and a+b in same line then op= b is big 5
 // console.log(nums(5,4));//if return and a+b not in same line=>op= a is big undefined
 //----------------------------------------------
-let randomValue = { 
-    name: "Lydia" 
-};
-randomValue = 23;
-if(!typeof randomValue === "string") {
-  //false -> boolean === string
-  console.log("It's not a string!");
-} 
-else{
-  console.log("Yay it's a string!");
+// let randomValue = { 
+//     name: "Lydia" 
+// };
+// randomValue = 23;
+// if(!typeof randomValue === "string") {
+//   //false -> boolean === string
+//   console.log("It's not a string!");
+// } 
+// else{
+//   console.log("Yay it's a string!");
+// }
+
+
+// const colorconfig={
+//   red:true,
+//   green:true,
+//   blue:false,
+//   white:true,
+//   pink:true,
+// };
+// const colors=['red', 'voilet', 'pink', 'white'];
+
+// console.log(colorconfig.green);
+// console.log(colorconfig[1]);//error
+
+
+//==============================================
+let count=0
+const nums=[10,11,12,13];
+//nums store  like this
+// "0":10
+// "1":11
+// "2":12
+// "3":13
+//note:loop apply on the string
+for(var i in nums){
+  if(i) count+=1;
 }
+console.log(count);
